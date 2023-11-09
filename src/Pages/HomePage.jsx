@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import { ImageCard } from "../Components/ImageCard.jsx"
+import "../Styles/HomePage.css"
 
 export const HomePage=()=>{
     const[data,setData]=useState([])
@@ -14,7 +15,7 @@ export const HomePage=()=>{
         getData()
     },[])
     return(
-        <div className="parent">
+        <div id="parent">
             {
                 data?.map((e,i)=>{
                     return <ImageCard id={e.id} imageUrl={e.url} key={i} />

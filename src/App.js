@@ -1,9 +1,7 @@
-import { HomePage } from "./Pages/HomePage"
-import { SinglePhoto } from "./Pages/SinglePhoto"
-import { CustomRoute } from "./routes/CustomRoute"
+import { CustomRoute } from "./Routes/CustomRoute.jsx"
 
 
 
- const App = () => <CustomRoute/>
+ const App = () => <CustomRoute />
 
 export default App
